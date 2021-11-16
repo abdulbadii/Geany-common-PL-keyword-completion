@@ -2,3 +2,5 @@
 for now   
 
 bash, cmake, javascript, pearl, rust
+
+put them in ```~/.config/geany/tags```
