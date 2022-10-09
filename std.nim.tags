@@ -1,60 +1,125 @@
 # format=pipe
-addr|||
-and|||
+add()|||
+addr |||
+and |||
 asm|||
+auto|||
 bind|||
-block|||
+block:|||
+bool|||
 break|||
-case|||
-cast|||
+captures|||
+captureBounds|||
+case |||
+cast[|||
+char|||
+close(|||
+commandLineParams()|||
 concept|||
-const|||
+const |||
+contains()|||
 continue|||
 converter|||
-defer|||
+dec()|||
+defer:|||
 discard|||
 distinct|||
 div|||
-elif|||
-else|||
+dumpAstGen:
+echo |||
+echo "\n==",,"=*=\n=",,"="|||
+elif |||
+else:|||
 end|||
 enum|||
-except|||
+except:|||
 export|||
-finally|||
-for|||
+false|||
+finally:|||
+find( )|||
+findAll|||
+flushFile(|||
+float |||
+for i in |||
 from|||
-func|||
-import|||
-include|||
+func |||
+get()|||
+getch()|||
+get.captures.toSeq|||
+getFilePos(|||
+getFileSize()|||
+getOsFileHandle(|||
+import |||
+inc()|||
+include |||
+inject|||
+inline|||
+int|||
 interface|||
+isNone:|||
 isnot|||
-iterator|||
-let|||
+isSome:|||
+iterator |||
+let |||
+len|||
+lines()|||
 macro|||
+match|||
 method|||
 mixin|||
 mod|||
 nil|||
-not|||
-notin|||
+not |||
+notin |||
 object|||
+open(|||
 out|||
-proc|||
-ptr|||
-raise|||
-ref|||
+proc |||
+ptr |||
+quit("YUP",0)|||
+raise |||
+readAll(|||
+readBuffer(|||
+readBytes(|||
+readChar(|||
+readChars(|||
+readFile()|||
+readline|||
+readLines()|||
+readLine(stdin)|||
+ref |||
+reopen()|||
+replace()|||
+repr|||
+reset|||
+result = quote do:|||
 return|||
+setlen(0)|||
 shl|||
 shr|||
 static|||
-template|||
-try|||
+stderr|||
+stdmsg()|||
+stdout|||
+string|||
+template |||
+true:|||
+try:|||
 tuple|||
-type|||
-using|||
-var|||
-when|||
-while|||
-xor|||
-yield|||
+typed|||
+type()|||
+uint|||
+untyped|||
+unsafeAddr(|||
+using |||
+var |||
+when :|||
+while |||
+write()|||
+writeBuffer|||
+writeBytes(|||
+writeChars()|||
+writeFile()|||
+writeLine(|||
+xor |||
+yield |||

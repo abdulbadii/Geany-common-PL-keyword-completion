@@ -1,59 +1,71 @@
 # format=pipe
-alias|||
+alias |||
+alnum:]|||
+alpha:]|||
 bg|||
+BASH_REMATCH[12]}|||
 bind|||
 break|||
 builtin|||
+cat |||
 caller|||
-cd|||
-command|||
+command |||
 compgen|||
 complete|||
 compopt|||
-continue|||
-declare|||
-dirs|||
+continue |||
+declare |||
+dirs |||
 disown|||
-echo|||
+done|||
+echo |||
+else |||
+elif |||
 enable|||
-eval|||
-exec|||
+eval |||
+exec |||
 exit|||
-export|||
+export |||
 false|||
 fc|||
 fg|||
+for |||
 getopts|||
+graph:]|||
 hash|||
 help|||
-history|||
+HISTCMD|||
+history -|||
 jobs|||
 kill|||
-let|||
-local|||
+let |||
+local |||
 logout|||
 mapfile|||
 popd|||
-printf|||
-pushd|||
+print:]|||
+printf ""|||
+pushd |||
 pwd|||
-read|||
+read -p |||
 readarray|||
 readonly|||
 return|||
-set|||
+set -|||
 shift|||
-shopt|||
-source|||
+shopt |||
+source |||
+space:]|||
 suspend|||
-test|||
+test |||
+then |||
 times|||
-trap|||
+trap ""|||
 true|||
-type|||
+type |||
 typeset|||
 ulimit|||
-umask|||
-unalias|||
-unset|||
+umask |||
+unalias |||
+unset |||
 wait|||

@@ -191,7 +191,7 @@ find|||
 finddepth|||
 FIRSTKEY|||
 flock|||
-for|||
+for()|||
 foreach|||
 fork|||
 format|||
@@ -358,13 +358,13 @@ POP|||
 pos|||
 POSTMATCH|||
 PREMATCH|||
-print|||
+print "$@"|||
 PRINT|||
 printf|||
 PRINTF|||
 PROCESS_ID|||
 PROGRAM_NAME|||
-prototype|||
+#prototype|||
 push|||
 PUSH|||
 quotemeta|||
@@ -434,9 +434,9 @@ sleep|||
 socket|||
 socketpair|||
 sort|||
-splice|||
+splice()|||
 SPLICE|||
-split|||
+split()|||
 splitdir|||
 splitpath|||
 sprintf|||
